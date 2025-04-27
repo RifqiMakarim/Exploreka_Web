@@ -36,11 +36,10 @@ $(document).ready(function () {
   $(".btn-wisata").click(function (e) {
     e.preventDefault();
     $("#spinner").removeClass("hidden");
-    
-    setTimeout(function() {
+
+    setTimeout(function () {
       window.location.href = "wisata.html";
-    },1500);
-    
+    }, 1500);
   });
 
   // Live Search
@@ -66,7 +65,6 @@ $(document).ready(function () {
     });
   });
 
-  // Render Card
   function renderCards(data) {
     $("#wisata-list").empty();
     data.forEach((item) => {
