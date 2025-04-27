@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Destinasi Wisata</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="js/jQuery 3.5.1.min.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body id="content">
+    <nav class="bg-white p-4 text-red-950 sticky top-0 shadow-md">
+      <div class="container mx-auto flex justify-between items-center">
+        <a
+          href="exploreka.html"
+          class="font-bold text-xl flex items-center space-x-2 hover:scale-105 transition-transform duration-300"
+          title="Explore Pekalongan"
+        >
+          <img src="img/logo_exploreka.png" alt="logo_exploreka" class="h-8" />
+          <span>Exploreka</span>
+        </a>
+        <div class="hidden md:flex space-x-6">
+          <a
+            href="exploreka.html"
+            class="hover:underline hover:text-yellow-500 transition duration-300"
+            >Beranda</a
+          >
+          <a
+            href="wisata.html"
+            class="hover:underline hover:text-yellow-500 transition duration-300"
+            >Wisata</a
+          >
+          <a
+            href="#"
+            class="hover:underline hover:text-yellow-500 transition duration-300"
+            >Kuliner</a
+          >
+          <a
+            href="#"
+            class="hover:underline hover:text-yellow-500 transition duration-300"
+            >Budaya</a
+          >
+          <a
+            href="exploreka.html#kontak"
+            class="hover:underline hover:text-yellow-500 transition duration-300"
+            >Kontak</a
+          >
+        </div>
+
+        <!-- Mobile menu button -->
+        <button
+          id="mobile-menu-button"
+          class="md:hidden text-red-950 focus:outline-none"
+        >
+          <!-- hamberger menu -->
+          <svg
+            class="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            ></path>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Untuk toogle tampilan mobile menu -->
+      <div id="mobile-menu" class="md:hidden hidden px-4 pt-2 pb-4 space-y-2">
+        <a
+          href="exploreka.html"
+          class="block hover:bg-red-900 hover:text-white px-2 py-1 rounded"
+          >Beranda</a
+        >
+        <a
+          href="wisata.html"
+          class="block hover:bg-red-900 hover:text-white px-2 py-1 rounded"
+          >Wisata</a
+        >
+        <a
+          href="#"
+          class="block hover:bg-red-900 hover:text-white px-2 py-1 rounded"
+          >Kuliner</a
+        >
+        <a
+          href="#"
+          class="block hover:bg-red-900 hover:text-white px-2 py-1 rounded"
+          >Budaya</a
+        >
+        <a
+          href="exploreka.html#kontak"
+          class="block hover:bg-red-900 hover:text-white px-2 py-1 rounded"
+          >Kontak</a
+        >
+      </div>
+    </nav>
+
+    <!-- Search & Filter -->
+    <section class="container mx-auto p-6">
+      <div class="flex flex-col md:flex-row gap-4 mb-8">
+        <input
+          type="text"
+          id="search-wisata"
+          placeholder="Cari wisata..."
+          class="flex-grow p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-800 focus:border-transparent"
+        />
+        <select
+          id="filter-category"
+          class="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-800"
+        >
+          <option value="all">Semua Kategori</option>
+          <option value="alam">Alam</option>
+          <option value="sejarah">Sejarah</option>
+          <option value="modern">Modern</option>
+        </select>
+      </div>
+    </section>
+
+    <!-- Daftar Wisata (Card Grid) -->
+    <section class="container mx-auto p-6">
+      <div
+        id="wisata-list"
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+      >
+        <!-- Card akan di-load via AJAX -->
+        <!-- <div class="card bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300"> -->
+        <!-- Gambar Wisata -->
+        <!-- <img src="img/destination/pantai.jpg" alt="Pantai Pasir Kencana" class="w-full h-48 object-cover"> -->
+
+        <!-- Badge Kategori
+                <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-md text-xs font-bold">
+                    Alam
+                </div> -->
+        <!-- </div> -->
+      </div>
+    </section>
+
+    <!-- Footer  -->
+    <footer class="bg-gray-500 text-white p-8 mt-12">
+      <div class="container mx-auto">
+        <div class="flex flex-col md:flex-row justify-between">
+          <div class="mb-6 md:mb-0">
+            <h3 class="text-xl font-bold mb-4">Exploreka</h3>
+            <p class="text-gray-300">
+              Exploreka - Platform wisata Pekalongan yang menyajikan informasi
+              terupdate tentang destinasi, kuliner, dan budaya lokal.
+            </p>
+          </div>
+
+          <div class="mb-6 md:mb-0">
+            <p class="font-bold mb-2">Follow Me:</p>
+            <div class="flex space-x-4">
+              <a
+                href="#"
+                class="text-gray-300 hover:text-white transition duration-300"
+                >Instagram: @_rifqi.m</a
+              >
+              <a
+                href="#"
+                class="text-gray-300 hover:text-white transition duration-300"
+                >LinkedIn: Rifqi Makarim</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="border-t bor mt-8 pt-6 text-center text-gray-400">
+          <p>&copy; 2025 Rifqi Makarim. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,244 @@
+{
+  "destination": [
+    {
+      "id": 1,
+      "name": "Pantai Pasir Kencana",
+      "category": "alam",
+      "description": "Pantai dengan pasir putih yang landai dan pemandangan sunset yang indah, cocok untuk bersantai dan berenang.",
+      "image": "img/destination/pantai.jpg",
+      "location": "https://maps.google.com/"
+    },
+    {
+      "id": 2,
+      "name": "Museum Batik Pekalongan",
+      "category": "sejarah",
+      "description": "Museum yang menyimpan koleksi batik khas Pekalongan dan menampilkan sejarah perkembangan batik di Indonesia.",
+      "image": "img/destination/museumbatik.jpg",
+      "location": "https://maps.google.com/"
+    },
+    {
+      "id": 3,
+      "name": "Taman Kota Pekalongan (Alun-alun)",
+      "category": "modern",
+      "description": "Taman kota yang menjadi pusat aktivitas warga dengan area bermain, kuliner, dan sering menjadi lokasi event budaya.",
+      "image": "img/destination/alun2pekalongan.jpg",
+      "location": "https://maps.google.com/"
+    },
+    {
+      "id": 4,
+      "name": "Curug Sibedug",
+      "category": "alam",
+      "description": "Air terjun dengan ketinggian sekitar 15 meter dikelilingi hutan yang asri, cocok untuk wisata alam dan trekking.",
+      "image": "img/",
+      "location": "https://maps.google.com/"
+    },
+    {
+      "id": 5,
+      "name": "Pekalongan City Mall",
+      "category": "modern",
+      "description": "Pusat perbelanjaan modern di Pekalongan dengan berbagai tenant fashion, kuliner, dan hiburan.",
+      "image": "img/",
+      "location": "https://maps.google.com/"
+    },
+    {
+      "id": 6,
+      "name": "Kampung Batik Jetis",
+      "category": "sejarah",
+      "description": "Kampung tradisional yang menjadi pusat produksi batik Pekalongan dengan suasana khas dan bisa melihat proses pembuatan batik langsung.",
+      "image": "img/",
+      "location": "https://maps.google.com/"
+    },
+    {
+      "id": 7,
+      "name": "Masjid Agung Pekalongan",
+      "category": "sejarah",
+      "description": "Masjid bersejarah dengan arsitektur perpaduan Jawa, Timur Tengah, dan Eropa yang dibangun tahun 1906.",
+      "image": "img/",
+      "location": "https://maps.google.com/"
+    },
+    {
+      "id": 8,
+      "name": "Pantai Slamaran Indah",
+      "category": "alam",
+      "description": "Pantai dengan pemandangan laut Jawa yang luas, dilengkapi area bermain anak dan tempat kuliner seafood.",
+      "image": "img/",
+      "location": "https://maps.google.com/"
+    },
+    {
+      "id": 9,
+      "name": "Gua Lawa",
+      "category": "alam",
+      "description": "Gua alam yang menjadi habitat kelelawar dengan stalaktit dan stalagmit yang unik, cocok untuk wisata petualangan.",
+      "image": "img/",
+      "location": "https://maps.google.com/"
+    },
+    {
+      "id": 10,
+      "name": "Kawasan Pecinan Pekalongan",
+      "category": "sejarah",
+      "description": "Kawasan bersejarah dengan arsitektur Tionghoa kuno dan pusat kuliner khas Chinese-Indonesia.",
+      "image": "img/",
+      "location": "https://maps.google.com/"
+    },
+    {
+      "id": 11,
+      "name": "Pantai Indah Sari",
+      "category": "alam",
+      "description": "Pantai dengan ombak tenang dan area bermain anak yang luas, sering menjadi lokasi family gathering.",
+      "image": "img/",
+      "location": "https://maps.google.com/"
+    },
+    {
+      "id": 12,
+      "name": "Monumen Perjuangan 1945",
+      "category": "sejarah",
+      "description": "Monumen yang mengenang perjuangan rakyat Pekalongan melawan penjajah dengan relief sejarah yang informatif.",
+      "image": "img/",
+      "location": "https://maps.google.com/"
+    },
+    {
+      "id": 13,
+      "name": "Kebun Binatang Mini Pekalongan",
+      "category": "modern",
+      "description": "Tempat rekreasi keluarga dengan koleksi satwa lokal dan wahana permainan anak.",
+      "image": "img/",
+      "location": "https://maps.google.com/"
+    },
+    {
+      "id": 14,
+      "name": "Pasar Grosir Setono",
+      "category": "modern",
+      "description": "Pusat oleh-oleh khas Pekalongan mulai dari batik, kerajinan tangan, hingga makanan tradisional.",
+      "image": "img/",
+      "location": "https://maps.google.com/"
+    },
+    {
+      "id": 15,
+      "name": "Waduk Malahayu",
+      "category": "alam",
+      "description": "Waduk dengan pemandangan alam yang menawan, cocok untuk memancing, berkemah, atau bersepeda.",
+      "image": "img/",
+      "location": "https://maps.google.com/"
+    },
+    {
+      "id": 16,
+      "name": "Makam Syekh Abdul Muhyi",
+      "category": "sejarah",
+      "description": "Makam ulama penyebar agama Islam di Pekalongan yang dikunjungi peziarah dari berbagai daerah.",
+      "image": "img/",
+      "location": "https://maps.google.com/"
+    },
+    {
+      "id": 17,
+      "name": "Bukit Gendul",
+      "category": "alam",
+      "description": "Spot wisata alam dengan pemandangan kota Pekalongan dari ketinggian, terkenal untuk melihat sunrise.",
+      "image": "img/",
+      "location": "https://maps.google.com/"
+    },
+    {
+      "id": 18,
+      "name": "Galeri Batik Indonesia",
+      "category": "sejarah",
+      "description": "Ruang pameran batik kontemporer dengan koleksi karya perancang batik ternama Indonesia.",
+      "image": "img/",
+      "location": "https://maps.google.com/"
+    },
+    {
+      "id": 19,
+      "name": "Waterpark Tirta Maya",
+      "category": "modern",
+      "description": "Wahana wisata air dengan berbagai kolam renang dan slide yang menyenangkan untuk keluarga.",
+      "image": "img/",
+      "location": "https://maps.google.com/"
+    },
+    {
+      "id": 20,
+      "name": "Hutan Mangrove Wonokerto",
+      "category": "alam",
+      "description": "Kawasan konservasi mangrove dengan trek kayu untuk melihat ekosistem pesisir dan burung migran.",
+      "image": "img/",
+      "location": "https://maps.google.com/"
+    },
+    {
+      "id": 21,
+      "name": "Klenteng Hok Liong Kiong",
+      "category": "sejarah",
+      "description": "Klenteng tua berdiri sejak 1820 dengan arsitektur Tionghoa yang autentik dan warna-warni.",
+      "image": "img/",
+      "location": "https://maps.google.com/"
+    },
+    {
+      "id": 22,
+      "name": "Pantai Teluk Awur",
+      "category": "alam",
+      "description": "Pantai dengan formasi batuan unik dan ombak yang cocok untuk surfing pemula.",
+      "image": "img/",
+      "location": "https://maps.google.com/"
+    },
+    {
+      "id": 23,
+      "name": "Kampung Wisata Keroncong",
+      "category": "sejarah",
+      "description": "Desa yang melestarikan musik keroncong dengan pertunjukan rutin dan workshop alat musik.",
+      "image": "img/",
+      "location": "https://maps.google.com/"
+    },
+    {
+      "id": 24,
+      "name": "Taman Sari Pekalongan",
+      "category": "modern",
+      "description": "Taman kota dengan air mancur menari, spot foto instagramable, dan area kuliner malam.",
+      "image": "img/",
+      "location": "https://maps.google.com/"
+    },
+    {
+      "id": 25,
+      "name": "Air Terjun Banyunibo",
+      "category": "alam",
+      "description": "Air terjun bertingkat dengan kolam alami yang jernih, dikelilingi vegetasi hutan tropis.",
+      "image": "img/",
+      "location": "https://maps.google.com/"
+    },
+    {
+      "id": 26,
+      "name": "Gedung Kesenian Sobokarti",
+      "category": "sejarah",
+      "description": "Bangunan peninggalan Belanda tahun 1927 yang menjadi pusat pertunjukan seni dan budaya Jawa.",
+      "image": "img/",
+      "location": "https://maps.google.com/"
+    },
+    {
+      "id": 27,
+      "name": "Bukit Jati Park",
+      "category": "modern",
+      "description": "Taman rekreasi di bukit dengan gardu pandang, spot camping, dan arena outbound.",
+      "image": "img/",
+      "location": "https://maps.google.com/"
+    },
+    {
+      "id": 28,
+      "name": "Pasar Batik Kauman",
+      "category": "sejarah",
+      "description": "Pasar tradisional khusus batik dengan harga lebih murah langsung dari pengrajin.",
+      "image": "img/",
+      "location": "https://maps.google.com/"
+    },
+    {
+      "id": 29,
+      "name": "Pantai Depok",
+      "category": "alam",
+      "description": "Pantai dengan pasir hitam yang eksotis dan deretan warung seafood terkenal di Pekalongan.",
+      "image": "img/",
+      "location": "https://maps.google.com/"
+    },
+    {
+      "id": 30,
+      "name": "Jembatan Loji",
+      "category": "sejarah",
+      "description": "Jembatan peninggalan Belanda dengan desain unik yang menjadi ikon kota Pekalongan.",
+      "image": "img/",
+      "location": "https://maps.google.com/"
+    }
+  ]
+}
