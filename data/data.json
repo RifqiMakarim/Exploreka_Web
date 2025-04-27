@@ -6,7 +6,7 @@
       "category": "alam",
       "description": "Pantai dengan pasir putih yang landai dan pemandangan sunset yang indah, cocok untuk bersantai dan berenang.",
       "image": "img/destination/pantai.jpg",
-      "location": "https://maps.google.com/"
+      "location": "https://www.google.com/maps/place/Pantai+Pasir+Kencana,+Jalan+Pantai,+Wonokerto,+Panjang+Wetan,+Kec.+Pekalongan+Utara,+Kota+Pekalongan,+Jawa+Tengah+51153/data=!4m2!3m1!1s0x2e7025ec5e8dc1a7:0xb7d48b40ec4e3185?sa=X&ved=1t:242&ictx=111&cshid=1745766914209754"
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "category": "sejarah",
       "description": "Museum yang menyimpan koleksi batik khas Pekalongan dan menampilkan sejarah perkembangan batik di Indonesia.",
       "image": "img/destination/museumbatik.jpg",
-      "location": "https://maps.google.com/"
+      "location": "https://www.google.com/maps/dir//Jl.+Jetayu+No.3,+Panjang+Wetan,+Kec.+Pekalongan+Utara,+Kota+Pekalongan,+Jawa+Tengah+51141/@-6.878578,109.5928481,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x2e7025d02817e969:0x6d02348c0a7b894b!2m2!1d109.67525!2d-6.878585?entry=ttu&g_ep=EgoyMDI1MDQyMy4wIKXMDSoJLDEwMjExNjQwSAFQAw%3D%3D"
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "category": "modern",
       "description": "Taman kota yang menjadi pusat aktivitas warga dengan area bermain, kuliner, dan sering menjadi lokasi event budaya.",
       "image": "img/destination/alun2pekalongan.jpg",
-      "location": "https://maps.google.com/"
+      "location": "https://www.google.com/maps/dir//Jl.+Nusantara+Jl.+Alun-Alun+Utara,+Keputran,+Kec.+Pekalongan+Tim.,+Kota+Pekalongan,+Jawa+Tengah+51111/@-6.8907364,109.5939327,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x2e7025a2b92f9b03:0x6b23bc60d665d6f8!2m2!1d109.6763346!2d-6.8907435?entry=ttu&g_ep=EgoyMDI1MDQyMy4wIKXMDSoJLDEwMjExNjQwSAFQAw%3D%3D"
     },
     {
       "id": 4,
